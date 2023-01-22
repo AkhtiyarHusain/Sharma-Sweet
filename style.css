@@ -1,0 +1,18 @@
+#flex{
+    display: flex;
+    justify-content:space-evenly;
+}
+#bgimage::before{
+    content: "";
+    background-image: url('https://images.unsplash.com/photo-1615366105533-5b8f3255ea5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dmVnYW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+   top: 0px;
+   left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+
+}
